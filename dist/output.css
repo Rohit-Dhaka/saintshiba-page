@@ -999,64 +999,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\/dist\/assets\/img\/Group156Full-moon\.png\)\]{
-  background-image: url(/dist/assets/img/Group156Full-moon.png);
-}
-
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\/img\/Group156Full-moon\.png\)\]{
-  background-image: url(/img/Group156Full-moon.png);
-}
-
-.bg-\[url\(\.\/img\/Group156Full-moon\.png\)\]{
-  background-image: url(./img/Group156Full-moon.png);
-}
-
-.bg-\[url\(\)\]{
-  background-image: url();
-}
-
-.bg-\[url\(\.\/\)\]{
-  background-image: url(./);
-}
-
-.bg-\[url\(\.\/dist\)\]{
-  background-image: url(./dist);
-}
-
-.bg-\[url\(\.\/dist\/\)\]{
-  background-image: url(./dist/);
-}
-
-.bg-\[url\(\.\/dist\/images\)\]{
-  background-image: url(./dist/images);
-}
-
-.bg-\[url\(\.\/dist\/images\/\)\]{
-  background-image: url(./dist/images/);
-}
-
-.bg-\[url\(\.\/dist\/images\/Group\)\]{
-  background-image: url(./dist/images/Group);
-}
-
-.bg-\[url\(\.\/dist\/images\/Group156\)\]{
-  background-image: url(./dist/images/Group156);
-}
-
-.bg-\[url\(\.\/dist\/images\/Group156Full-moon\)\]{
-  background-image: url(./dist/images/Group156Full-moon);
-}
-
-.bg-\[url\(\.\/dist\/images\/Group156Full-moon\.png\)\]{
-  background-image: url(./dist/images/Group156Full-moon.png);
-}
-
-.bg-\[url\(\/dist\/images\/Group156Full-moon\.png\)\]{
-  background-image: url(/dist/images/Group156Full-moon.png);
 }
 
 .from-\[\#FFA800\]{
@@ -1317,6 +1261,10 @@ video {
   background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
   -webkit-backdrop-filter: blur(16px);
           backdrop-filter: blur(16px);
+}
+
+.bg-image{
+  background: url(/dist/images/Group156Full-moon.png);
 }
 
 .before\:absolute::before{
