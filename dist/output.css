@@ -1263,10 +1263,6 @@ video {
           backdrop-filter: blur(16px);
 }
 
-.bg-image{
-  background: url(/dist/images/Group156Full-moon.png);
-}
-
 .before\:absolute::before{
   content: var(--tw-content);
   position: absolute;

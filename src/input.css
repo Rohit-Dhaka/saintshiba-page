@@ -27,6 +27,3 @@
     background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
     backdrop-filter: blur(16px);
 }
-.bg-image{
-    background: url(/dist/images/Group156Full-moon.png);
-}
