@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menulist.active {
+    right: 0;
+}
+.menuicon.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+.menuicon.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.menuicon.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+.accordion-item.active {
+    height: unset;
+}
+.accordion-item.active .icon {
+    transform: rotate(180deg);
+}
+.bg-blur{
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+}
